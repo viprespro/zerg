@@ -15,6 +15,12 @@ use think\Model;
 class BannerItem extends BaseModel
 {
     protected $hidden = ['id','img_id','banner_id','delete_time','update_time']; // 设置返回数据的隐藏字段
+
+    /**
+     * @return \think\model\relation\BelongsTo
+     * 建立关联关系
+     * TP5中描述这种一对一的关系使用belongsTo
+     */
     public function img(){
         return $this->belongsTo('image','img_id','id');
     }

@@ -6,7 +6,7 @@
  * Time: 10:39
  */
 
-namespace app\api\controller\v1;
+namespace app\api\controller\v2;
 
 class Banner
 {

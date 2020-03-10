@@ -6,5 +6,5 @@
  * Time: 0:05
  */
 return [
-    'img_prefix' => 'http://www.tp5.io'
+    'img_prefix' => 'http://www.zerg.com/images'
 ];
